@@ -1,0 +1,162 @@
+body{
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-family: "Atlan";
+  font-weight: 700;
+}
+
+#DescN,
+#Description,
+#Player1N1,
+#Player1,
+#Player2N1,
+#Player2,
+#Submit,
+#Player1N,
+#DecScoreP1,
+#Player1Score,
+#IncScoreP1,
+#Player2N,
+#DecScoreP2,
+#Player2Score,
+#IncScoreP2,
+#descriptionN,
+#switch{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    color: Black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#DescN{
+    Top: 50px;
+    Left: 285px;
+}
+
+#Description{
+    Top: 75px;
+    Left: 250px;
+    max-width: 200px;
+    min-width: 100px;
+    max-height: 25px;
+    min-height: 10px;
+}
+
+#Player1N1{
+    top: 110px;
+    Left: 188px;
+    max-width: 200px;
+    min-width: 100px;
+    max-height: 25px;
+    min-height: 10px;
+}
+
+#Player1{
+    top: 130px;
+    Left: 150px;
+    max-width: 200px;
+    min-width: 100px;
+    max-height: 25px;
+    min-height: 10px;
+}
+
+#Player2N1{
+    top: 110px;
+    Left: 388px;
+    max-width: 200px;
+    min-width: 100px;
+    max-height: 25px;
+    min-height: 10px;
+}
+
+#Player2{
+    top: 130px;
+    Left: 350px;
+    max-width: 200px;
+    min-width: 100px;
+    max-height: 25px;
+    min-height: 10px;
+}
+
+#Submit{
+    top: 175px;
+    Left: 290px;
+    max-width: 200px;
+    min-width: 100px;
+    max-height: 25px;
+    min-height: 10px;
+}
+
+#Player1N{
+    Top: 50px;
+    Left: 740px;
+}
+
+#Player2N{
+    Top: 50px;
+    Left: 1000px;
+}
+
+#DecScoreP1,
+#Player1Score,
+#IncScoreP1,
+#DecScoreP2,
+#Player2Score,
+#IncScoreP2{
+    Top:75px;
+    Left: 750px;
+}
+
+#DecScoreP1,
+#IncScoreP1,
+#DecScoreP2,
+#IncScoreP2{
+    max-width: 50px;
+    min-width: 25px;
+    max-height: 25px;
+    min-height: 15px;
+}
+
+#DecScoreP1{
+    Left: 735px
+}
+
+#Player1Score{
+    Left: 775px;
+}
+
+#IncScoreP1{
+    Left: 800px;
+}
+
+#DecScoreP2{
+    Left: 995px;
+}
+
+#Player2Score{
+    Left: 1035px;
+}
+
+#IncScoreP2{
+    Left: 1060px;
+}
+
+#descriptionN{
+    Top: 125px;
+    Left: 855px;
+}
+
+#switch{
+    Top: 165px;
+    Left: 868px;
+    max-width: 100px;
+    min-width: 25px;
+    max-height: 30px;
+    min-height: 15px;
+}

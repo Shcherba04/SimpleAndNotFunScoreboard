@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<title>Freaky Scoreboard</title>
+
+<body>
+    <div>
+        <div id="DescN">
+            Description
+        </div>
+        <input type="text" value="round name" id="Description">
+    
+        <div id="Player1N1">
+            Player 1
+        </div>
+        <div>
+            <input type="text" id="Player1" value="Player 1">
+        </div>
+        <div id="Player2N1">
+            Player 2
+        </div>
+        <div>
+            <input type="text" id="Player2" value="Player 2">
+        </div>
+        <div>
+            <input type="button" id="Submit" value="Submit" />
+        </div>
+    </div>
+    <div>
+    <div>
+        <div id="Player1N"></div>
+        <input type="button" id="DecScoreP1" value="-" />
+        <div id="Player1Score"></div>
+        <input type="button" id="IncScoreP1" value="+" />
+    </div>
+    <div >
+        <div id="Player2N"></div>
+        <input type="button" id="DecScoreP2" value="-" />
+        <div id="Player2Score"></div>
+        <input type="button" id="IncScoreP2" value="+" />
+    </div>
+    </div>
+    <div >
+        <div id="descriptionN">
+    </div>
+    <div>
+        <input type="button" id="switch" value="switch" />
+        </div>
+</body>
+<script src="/js/signalr/dist/browser/signalr.js"></script>
+<script src="controlindex.js"></script>
+<link href="control.css" rel="stylesheet" />
